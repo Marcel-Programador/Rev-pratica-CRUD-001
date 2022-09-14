@@ -1,8 +1,9 @@
 const express = require("express");
 // Variavel app executando o pacote express importado para o arquivo pela variavel express.
 const app = express();
-const port = 3000;
+const port = 3001;
 
+// Rotas customizadas
 const indexRoute = require("./src/routes/indexRoute");
 const userRoute = require("./src/routes/userRoute");
 
